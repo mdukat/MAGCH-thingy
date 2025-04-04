@@ -8,8 +8,24 @@ Documenting reverse-engineering of MAGCH M610-EEA Android tablet
    - GPU
    - USB OTG
 
+## Device info
+> Information from CPU-Z
+ - Model: M610-EEA
+ - Brand: MAGCH
+ - Manufacturer: incar
+ - Board: rk30sdk
+ - Hardware: rk30board
+ - Screen Resolution: 600x1024
+ - Screen Density: 170dpi
+ - CPU: 4x ARM Cortex-A35 @ 1.51GHz (Rockchip RK3066)
+ - GPU Renderer: Mali-G31
+
 ## Preinstalled software
-> TODO add information on android build, kernel, etc.
+> Information from CPU-Z
+ - Android Version 11 (Go)
+   - Build ID: MAGCH_863T_RK1_CG_SQ_BOE_1M_YQ3_M610-EEA-V1.1_20231025
+ - Kernel 4.19.193 (hxl20220311)
+ - Google Play Services: 21.45.16 (170302-414021728)
 
 ## IC's on PCB
 PCB has identification silkscreen text of `R863T-RK3326S-V1.0-M`. CPU-Z shows RK3066.
