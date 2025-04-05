@@ -44,6 +44,16 @@ List of devices attached
 P1127BSD004594  device
 ```
 
+## How to get into recovery
+```
+$ ./adb reboot recovery
+
+Then, when screen is showing "no command" text:
+Press and hold the Power button.
+While holding the Power button press the Volume Up button,
+then release the Volume Up button, and then the Power button.
+```
+
 ## ADB Shell...
 
 ### RAM usage
